@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Facebook Login Page Suite">
+	
+	<listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+	
+  <test name="Facebook Login TestCases">
+    <classes>       
+      <class name="com.fb.qa.testcases.LoginPageTest"/>
+      <class name="com.fb.qa.testcases.ForgetPassBtnTest"/>
+       <class name="com.fb.qa.testcases.CreateAnAccountTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
